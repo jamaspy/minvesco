@@ -46,7 +46,7 @@ export default function HeroSection() {
         </svg>
       </div>
 
-      <div className="container flex flex-row gap-4 mx-auto px-6 py-20 relative z-10">
+      <div className="container flex flex-col-reverse md:flex-row gap-4 mx-auto px-6 py-20 relative z-10">
         <div className="flex-1 rounded-lg overflow-hidden">
           <Image src="/coal.jpg" alt="Coal" width={500} height={500} />
         </div>
